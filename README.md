@@ -1,10 +1,10 @@
 # Friday Night Fallin' Demo V2
-Gamebanana: https://gamebanana.com/mods/345834n/
+Gamebanana: https://gamebanana.com/mods/345834\n
 Gamejolt: https://gamejolt.com/games/friday-night-fallin/674663
 
 # Psych Engine
-This mod is powered by the Psych Engine!n/
-Gamebanana: https://gamebanana.com/mods/309789n/
+This mod is powered by the Psych Engine!\n
+Gamebanana: https://gamebanana.com/mods/309789\n
 Github: https://github.com/ShadowMario/FNF-PsychEngine
 
 # Credits
