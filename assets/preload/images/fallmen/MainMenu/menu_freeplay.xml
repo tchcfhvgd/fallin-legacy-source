@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FNF_main_menu_assets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freeplay basic0000" x="0" y="0" width="242" height="242" frameX="-145" frameY="23" frameWidth="464" frameHeight="232"/>
+	<SubTexture name="freeplay white0000" x="243" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0001" x="243" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0002" x="804" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0003" x="804" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0004" x="1365" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0005" x="1365" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0006" x="1926" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0007" x="1926" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0008" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0009" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0010" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0011" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0012" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay white0013" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0000" x="3048" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0001" x="3048" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0002" x="3609" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0003" x="4170" y="0" width="663" height="663" frameX="5" frameY="28" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0004" x="4170" y="0" width="663" height="663" frameX="5" frameY="28" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0005" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0006" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0007" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0008" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0009" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0010" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0011" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0012" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0013" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0014" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0015" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0016" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0017" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0018" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0019" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0020" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0021" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0022" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0023" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0024" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0025" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0026" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0027" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0028" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0029" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0030" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0031" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0032" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0033" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0034" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0035" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0036" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0037" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0038" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+	<SubTexture name="freeplay pressed0039" x="2487" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SummerPoint.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sumpoint0000" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0001" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0002" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0003" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0004" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0005" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0006" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0007" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0008" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0009" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0010" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0011" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0012" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="sumpoint0013" x="5350" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+</TextureAtlas>

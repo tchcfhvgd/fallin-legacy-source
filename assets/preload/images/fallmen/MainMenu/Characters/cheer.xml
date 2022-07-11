@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cheer.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bopping0000" x="0" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0001" x="0" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0002" x="1247" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0003" x="1247" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0004" x="2494" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0005" x="2494" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0006" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0007" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0008" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0009" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0010" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+	<SubTexture name="bopping0011" x="3741" y="0" width="1246" height="1079" frameX="0" frameY="0" frameWidth="1246" frameHeight="0"/>
+</TextureAtlas>
