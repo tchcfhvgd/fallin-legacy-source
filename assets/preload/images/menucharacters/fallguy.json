@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_fallguy",
+	"position": [
+		160,
+		230
+	],
+	"scale": 0.4,
+	"idle_anim": "fgIdle",
+	"confirm_anim": "fgIdle"
+}
