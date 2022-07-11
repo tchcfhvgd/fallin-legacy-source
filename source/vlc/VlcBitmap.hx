@@ -125,22 +125,10 @@ class VlcBitmap extends Bitmap
 		#if (cpp && !mobile)
 		libvlc.setRepeat(repeat);
 
-		if (!inWindow)
-		{
-			if (source != null)
-				libvlc.play(source);
-			else
-				libvlc.play();
-		}
+		if (source != null)
+			libvlc.play(source);
 		else
-		{
-			if (source != null)
-				libvlc.playInWindow(source);
-			else
-				libvlc.playInWindow();
-
-			libvlc.setWindowFullscreen(fullscreen);
-		}
+			libvlc.play();
 
 		if (onPlay != null)
 			onPlay();
