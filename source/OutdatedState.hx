@@ -24,14 +24,18 @@ class OutdatedState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Sup bro, looks like you're running an   \n
-			outdated version of Psych Engine (" + MainMenuState.psychEngineVersion + "),\n
-			please update to " + TitleState.updateVersion + "!\n
-			Press ESCAPE to proceed anyway.\n
+			"Hey there, looks like you're running an   \n
+			outdated version of Friday Night Fallin' (v" + MainMenuState.fallinVersion + "),\n
+			please update to v" + TitleState.updateVersion + "!\n
 			\n
-			Thank you for using the Engine!",
+			Press B to Download on Gamebanana.\n
+			Press J to Download on Gamejolt.\n
+			Press ENTER to proceed anyway.\n
+			\n
+			Thank you for playing the mod!",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		warnText.antialiasing = ClientPrefs.globalAntialiasing;
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
@@ -44,11 +48,20 @@ class OutdatedState extends MusicBeatState
 		}
 
 		if(!leftState) {
-			if (controls.ACCEPT) {
-				leftState = true;
-				CoolUtil.browserLoad("https://github.com/ShadowMario/FNF-PsychEngine/releases");
+			if (FlxG.keys.justPressed.B)
+			{
+				CoolUtil.browserLoad("https://gamebanana.com/mods/345834");
 			}
-			else if(controls.BACK) {
+			else if (FlxG.keys.justPressed.J)
+			{
+				CoolUtil.browserLoad("https://gamejolt.com/games/friday-night-fallin/674663");
+			}
+			else if (controls.ACCEPT)
+			{
+				leftState = true;
+			}
+			else if (controls.BACK)
+			{
 				leftState = true;
 			}
 
