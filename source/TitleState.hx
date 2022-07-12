@@ -100,15 +100,14 @@ class TitleState extends MusicBeatState
 		}
 		#end*/
 		
-		#if CHECK_FOR_UPDATES
 		if(!closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/Denoohay/fallin-source/main/gitVersion.txt");
 			
 			http.onData = function (data:String)
 			{
 				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
+				var curVersion:String = MainMenuState.fallinVersion.trim();
 				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
 					trace('versions arent matching!');
@@ -122,7 +121,6 @@ class TitleState extends MusicBeatState
 			
 			http.request();
 		}
-		#end
 
 		FlxG.game.focusLostFramerate = 60;
 		FlxG.sound.muteKeys = muteKeys;
@@ -434,7 +432,7 @@ class TitleState extends MusicBeatState
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					if (mustUpdate) {
-						MusicBeatState.switchState(new MainMenuState());
+						MusicBeatState.switchState(new OutdatedState());
 					} else {
 						MusicBeatState.switchState(new MainMenuState());
 					}
@@ -548,7 +546,7 @@ class TitleState extends MusicBeatState
 			logoBl.animation.play('bump', true);
 			
 		if(titleGuy != null) 
-			logoBl.animation.play('bounce', true);
+			titleGuy.animation.play('bounce', true);
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;

@@ -25,8 +25,8 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.5.2h'; //This is also used for Discord RPC
-	public static var fallinVersion:String = '0.2.0';
+	public static var psychEngineVersion:String = '0.5.2h';
+	public static var fallinVersion:String = '0.2.1'; //This is also used for Discord RPC and checking for updates
 	public static var curSelected:Int = 0;
 
 	var daThing:String = "";
