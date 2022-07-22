@@ -37,11 +37,6 @@ class FlashingState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.F)
-		{
-			FlxG.fullscreen = !FlxG.fullscreen;
-		}
-
 		if(!leftState) {
 			var accept:Bool = controls.ACCEPT;
 			if (FlxG.keys.justPressed.P || accept) {

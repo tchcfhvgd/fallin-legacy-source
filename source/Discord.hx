@@ -82,7 +82,7 @@ class DiscordClient
 			details: details,
 			state: state,
 			largeImageKey: 'demov2icon',
-			largeImageText: "Fallin' Version: v" + MainMenuState.fallinVersion + " (DEMO)",
+			largeImageText: "Fallin' Version: v0.2.1 (DEMO)",
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp : Std.int(startTimestamp / 1000),

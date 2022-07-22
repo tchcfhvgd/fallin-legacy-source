@@ -26,7 +26,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5.2h';
-	public static var fallinVersion:String = '0.2.2'; //This is also used for Discord RPC and checking for updates
+	public static var fallinVersion:String = '0.2.1'; //This is also used for Discord RPC and checking for updates
 	public static var curSelected:Int = 0;
 
 	var daThing:String = "";
@@ -402,7 +402,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.antialiasing = ClientPrefs.globalAntialiasing;
 		versionShit.borderSize = 1.5;
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height -20, 1266, "Friday Night Fallin' v" + fallinVersion + " (DEMO)", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height -20, 1266, "Friday Night Fallin' v" + fallinVersion + "s (DEMO)", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		versionShit.antialiasing = ClientPrefs.globalAntialiasing;

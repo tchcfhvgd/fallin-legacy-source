@@ -26,6 +26,7 @@ class FreeplayState extends MusicBeatState
 	
 	var scoreBG:FlxSprite;
 	var selector:FlxText;
+	var riddleText:FlxText;
 	var curSelected:Int = 0;
 	var curDifficulty:Int = 1;
 	var weekbeaten:Int = 1;
@@ -44,6 +45,18 @@ class FreeplayState extends MusicBeatState
 
 	private var iconArray:Array<HealthIcon> = [];
 
+	var pogoStick:Array<Dynamic> = [
+	[FlxKey.I, FlxKey.A], 
+	[FlxKey.M], 
+	[FlxKey.P, FlxKey.O], 
+	[FlxKey.O, FlxKey.N], 
+	[FlxKey.S, FlxKey.G],
+	[FlxKey.T, FlxKey.SPACE],
+	[FlxKey.O, FlxKey.U],
+	[FlxKey.R, FlxKey.S],
+	[FlxKey.ENTER]];
+	var pogoStickJoe:Int = 0;
+
 	override function create()
 	{
 		if (FlxG.save.data.DemoFreeplaySong2 == true && FlxG.save.data.DemoFreeplaySong3 == true && FlxG.save.data.DemoFreeplaySong4 == true)
@@ -58,7 +71,7 @@ class FreeplayState extends MusicBeatState
 		}
 		else if (FlxG.save.data.DemoFreeplaySong2 == true && FlxG.save.data.DemoFreeplaySong3 == true)
 		{
-			var initSonglist:Array<String> = ['Bean Bam:fall-guy', 'Earthquake:fall-guy', 'Bombshell:fall-guy', '???:rapguy-dark', ''];
+			var initSonglist:Array<String> = ['Bean Bam:fall-guy', 'Earthquake:fall-guy', 'Bombshell:fall-guy', '???:rapguy-locked', ''];
 
 			for (i in 0...initSonglist.length)
 			{
@@ -68,7 +81,7 @@ class FreeplayState extends MusicBeatState
 		}
 		else if (FlxG.save.data.DemoFreeplaySong2 == true)
 		{
-			var initSonglist:Array<String> = ['Bean Bam:fall-guy', 'Earthquake:fall-guy', '???:locked', '???:locked', ''];
+			var initSonglist:Array<String> = ['Bean Bam:fall-guy', 'Earthquake:fall-guy', '???:fall-guy-locked', '???:rapguy-locked', ''];
 
 			for (i in 0...initSonglist.length)
 			{
@@ -78,7 +91,7 @@ class FreeplayState extends MusicBeatState
 		}
 		else
 		{
-			var initSonglist:Array<String> = ['Bean Bam:fall-guy', '???:locked', '???:locked', '???:locked', ''];
+			var initSonglist:Array<String> = ['Bean Bam:fall-guy', '???:fall-guy-locked', '???:fall-guy-locked', '???:rapguy-locked', ''];
 
 			for (i in 0...initSonglist.length)
 			{
@@ -164,6 +177,15 @@ class FreeplayState extends MusicBeatState
 		selector.antialiasing = ClientPrefs.globalAntialiasing;
 		// add(selector);
 
+		riddleText = new FlxText(0, 270, FlxG.width, "", 0);
+		riddleText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		riddleText.scrollFactor.set();
+		riddleText.borderSize = 1.875;
+		riddleText.text = "";
+		riddleText.screenCenter(X);
+		riddleText.antialiasing = ClientPrefs.globalAntialiasing;
+		add(riddleText);
+
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
 
 		// JUST DOIN THIS SHIT FOR TESTING!!!
@@ -231,7 +253,6 @@ class FreeplayState extends MusicBeatState
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
 		var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
-		var JUSTsongName:String = (songs[curSelected].songName.toLowerCase()); //SONG NAME WITH SPACES AND ALL LOWER CASE
 
 		var shiftMult:Int = 1;
 
@@ -246,14 +267,15 @@ class FreeplayState extends MusicBeatState
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
+		else if (accepted && pogoStickJoe == 5)
+		{
+		}
+		else if (accepted && pogoStickJoe == 8)
+		{
+		}
 		else if (accepted)
 		{
-			if (JUSTsongName == '???' && curSelected == 3 && FlxG.save.data.DemoFreeplaySong3 == true)
-			{
-				FlxG.sound.music.volume = 0;
-				MusicBeatState.switchState(new VoidState());
-			}
-			else if (JUSTsongName == '???')
+			if (poop == '???')
 			{
 				FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.3));
 				camGame.shake(0.005, 0.2);
@@ -274,22 +296,46 @@ class FreeplayState extends MusicBeatState
 
 		if(FlxG.keys.pressed.SHIFT) shiftMult = 1;
 
-			if (upP)
+			if (upP && curSelected == 0 && FlxG.save.data.DemoFreeplaySong3 == true && !FlxG.save.data.DemoFreeplaySong4)
 			{
 				changeSelection(-shiftMult);
 				holdTime = 0;
+				riddleText.alpha = 1;
+				riddleText.text = "Riddle me this:\n\nWhat's red, blue, and SUS ALL OVER?\n\n\nType your answer, then press ENTER";
 			}
-			if (downP)
+			else if (upP)
+			{
+				changeSelection(-shiftMult);
+				holdTime = 0;
+				riddleText.alpha = 0;
+				riddleText.text = "Riddle me this:\n\nWhat's red, blue, and SUS ALL OVER?\n\n\nType your answer, then press ENTER";
+			}
+			if (downP && curSelected == 2 && FlxG.save.data.DemoFreeplaySong3 == true && !FlxG.save.data.DemoFreeplaySong4)
 			{
 				changeSelection(shiftMult);
 				holdTime = 0;
+				riddleText.alpha = 1;
+				riddleText.text = "Riddle me this:\n\nWhat's red, blue, and SUS ALL OVER?\n\n\nType your answer, then press ENTER";
+			}
+			else if (downP && pogoStickJoe == 4)
+			{
+			}
+			else if (downP && pogoStickJoe == 7)
+			{
+			}
+			else if (downP)
+			{
+				changeSelection(shiftMult);
+				holdTime = 0;
+				riddleText.alpha = 0;
+				riddleText.text = "Riddle me this:\n\nWhat's red, blue, and SUS ALL OVER?\n\n\nType your answer, then press ENTER";
 			}
 
 			if(controls.UI_DOWN || controls.UI_UP)
 			{
-				var checkLastHold:Int = Math.floor((holdTime - 0.5) * 0);
+				var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
 				holdTime += elapsed;
-				var checkNewHold:Int = Math.floor((holdTime - 0.5) * 0);
+				var checkNewHold:Int = Math.floor((holdTime - 0.5) * 10);
 
 				if(holdTime > 0.5 && checkNewHold - checkLastHold > 0)
 				{
@@ -298,11 +344,48 @@ class FreeplayState extends MusicBeatState
 				}
 			}
 
-		if (JUSTsongName == 'rap battle')
+		
+		if (curSelected == 3 && FlxG.save.data.DemoFreeplaySong3 == true && !FlxG.save.data.DemoFreeplaySong4)
+		{
+			if (FlxG.keys.justPressed.ANY) 
+			{
+				var hitCorrectKey:Bool = false;
+				for (i in 0...pogoStick[pogoStickJoe].length)
+				{
+					if (FlxG.keys.checkStatus(pogoStick[pogoStickJoe][i], JUST_PRESSED))
+						hitCorrectKey = true;
+				}
+				if (hitCorrectKey)
+				{
+					if (pogoStickJoe == (pogoStick.length - 1))
+					{
+						MusicBeatState.switchState(new VoidState());
+					}
+					else
+					{
+						FlxG.sound.play(Paths.sound('scrollMenu'), 0.7);
+						trace('susing');
+						pogoStickJoe++;
+					}
+				}
+				else 
+				{
+					pogoStickJoe = 0;
+					trace('wrong, dumb');
+					for (i in 0...pogoStick[0].length)
+					{
+						if (FlxG.keys.checkStatus(pogoStick[0][i], JUST_PRESSED))
+							pogoStickJoe = 1;
+					}
+				}
+			}
+		}
+
+		if (curSelected == 3)
 		{
 			changeDiff(1 - curDifficulty);
 		}
-		else if (JUSTsongName == '???' && curSelected == 3 && FlxG.save.data.DemoFreeplaySong3 == true)
+		else if (poop == '???')
 		{
 			changeDiff(1 - curDifficulty);
 		}

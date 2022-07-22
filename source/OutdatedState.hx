@@ -16,7 +16,6 @@ class OutdatedState extends MusicBeatState
 	public static var leftState:Bool = false;
 
 	var warnText:FlxText;
-	var updateText:FlxText;
 	override function create()
 	{
 		super.create();
@@ -24,27 +23,21 @@ class OutdatedState extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		add(bg);
 
-		warnText = new FlxText(0, 70, FlxG.width,
-			"Hey there, looks like you're running an\n\n" + 
-			"outdated version of Friday Night Fallin' (v" + MainMenuState.fallinVersion + "),\n\n" + 
-			"please update to v" + TitleState.updateVersion + "!\n\n" + 
-			"\n\n" + 
-			"Press B to Download on Gamebanana.\n\n" + 
-			"Press J to Download on Gamejolt.\n\n" + 
-			"Press ENTER to proceed anyway.\n\n" + 
-			"\n\n" + 
-			"Thank you for playing the mod!",
+		warnText = new FlxText(0, 0, FlxG.width,
+			"Hey there, looks like you're running an   \n
+			outdated version of Friday Night Fallin' (v" + MainMenuState.fallinVersion + "),\n
+			please update to v" + TitleState.updateVersion + "!\n
+			\n
+			Press B to Download on Gamebanana.\n
+			Press J to Download on Gamejolt.\n
+			Press ENTER to proceed anyway.\n
+			\n
+			Thank you for playing the mod!",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.antialiasing = ClientPrefs.globalAntialiasing;
-		warnText.screenCenter(X);
+		warnText.screenCenter(Y);
 		add(warnText);
-
-		updateText = new FlxText(0, 620, FlxG.width, "What's New?\n\n" + TitleState.newUpdates, 32);
-		updateText.setFormat("VCR OSD Mono", 26, 0xFFFF2374, CENTER);
-		updateText.antialiasing = ClientPrefs.globalAntialiasing;
-		updateText.screenCenter(X);
-		add(updateText);
 	}
 
 	override function update(elapsed:Float)
@@ -75,17 +68,9 @@ class OutdatedState extends MusicBeatState
 			if(leftState)
 			{
 				FlxG.sound.play(Paths.sound('cancelMenu'));
-				FlxTween.tween(warnText, {alpha: 0}, 1,
-				{
-					onComplete: function (twn:FlxTween)
-					{
+				FlxTween.tween(warnText, {alpha: 0}, 1, {
+					onComplete: function (twn:FlxTween) {
 						MusicBeatState.switchState(new MainMenuState());
-					}
-				});
-				FlxTween.tween(updateText, {alpha: 0}, 1,
-				{
-					onComplete: function (twn:FlxTween)
-					{
 					}
 				});
 			}
