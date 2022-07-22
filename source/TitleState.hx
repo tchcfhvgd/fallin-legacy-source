@@ -72,6 +72,7 @@ class TitleState extends MusicBeatState
 	var titleJSON:TitleData;
 	
 	public static var updateVersion:String = '';
+	public static var newUpdates:String = '';
 
 	override public function create():Void
 	{
@@ -120,6 +121,21 @@ class TitleState extends MusicBeatState
 			}
 			
 			http.request();
+
+			
+			var httpTextFile = new haxe.Http("https://raw.githubusercontent.com/Denoohay/fallin-source/main/gitDemoVersionText.txt");
+			
+			httpTextFile.onData = function (data:String)
+			{
+				newUpdates = data.split('\n')[0].trim();
+			}
+			
+			httpTextFile.onError = function (error)
+			{
+				trace('error: $error');
+			}
+			
+			httpTextFile.request();
 		}
 
 		FlxG.game.focusLostFramerate = 60;
@@ -276,7 +292,6 @@ class TitleState extends MusicBeatState
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
 		
 		add(logoBl);
-		logoBl.shader = swagShader.shader;
 		add(titleGuy);
 		titleGuy.shader = swagShader.shader;
 		//add(gfDance);
