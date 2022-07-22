@@ -1258,7 +1258,14 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 					
 				case 'bean-bam':
-					video.playMP4(Paths.video('cut1'), new PlayState()); 
+					if (FlxG.save.data.DemoCutsceneOneSeen == true)
+					{
+						video.playMP4(Paths.video('cut1'), new PlayState());
+					}
+					else
+					{
+						video.playMP4(Paths.video('cut1-message'), new PlayState());
+					}
 
 				case 'earthquake':
 					FlxG.save.data.DemoFreeplayUnlocked = true;
@@ -1967,6 +1974,10 @@ class PlayState extends MusicBeatState
 							{
 								remove(countdownStarting);
 								countdownStarting.destroy();
+								if (isStoryMode && curSong == 'Bean Bam')
+								{
+									FlxG.save.data.DemoCutsceneOneSeen = true;
+								}
 							}
 						});
 						FlxG.sound.play(Paths.sound('intro3' + introSoundsSuffix), 0.6);
