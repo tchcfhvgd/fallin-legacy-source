@@ -1,4 +1,4 @@
-# Friday Night Fallin' Demo V2
+# Friday Night Fallin'
 Gamebanana: https://gamebanana.com/mods/345834
 
 Gamejolt: https://gamejolt.com/games/friday-night-fallin/674663
@@ -11,9 +11,8 @@ Gamebanana: https://gamebanana.com/mods/309789
 Github: https://github.com/ShadowMario/FNF-PsychEngine
 
 # Credits
-### Fallin' Founders
- - [Denoohay](https://twitter.com/Denoohay) - Artist, Coder, Charter, and Vocal Composer of Fallin'
- - [Frarly](https://gamebanana.com/members/1877452) - Composer of Fallin' Demo V1, Instrumental Composer of Demo V2
+### Mod Creator
+ - [Denoohay](https://twitter.com/Denoohay) - I made this :P
 ### Psych Engine Team
  - [Shadow Mario](https://twitter.com/Shadow_Mario_) - Main Programmer of Psych Engine
  - [RiverOaken](https://twitter.com/RiverOaken) - Main Artist/Animator of Psych Engine
