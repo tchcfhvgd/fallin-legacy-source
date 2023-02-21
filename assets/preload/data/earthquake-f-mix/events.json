@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "slimeClimb-old",
+		"player1": "bf",
+		"player2": "fall-guy-beta-mad",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 270,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Spiky Slopes"
+	}
+}

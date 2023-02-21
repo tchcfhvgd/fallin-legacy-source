@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 2.6,
+		"stage": "theWhirlygig-old",
+		"player1": "plush-guy-player",
+		"player2": "plush-guy",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "holycrown",
+		"bpm": 153,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Everybody Falls"
+	}
+}

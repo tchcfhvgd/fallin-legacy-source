@@ -1,0 +1,539 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "theWhirlygig-old",
+		"player1": "bf",
+		"player2": "fall-guy",
+		"player3": null,
+		"events": [
+			[
+				7031.25,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"Dad"
+					]
+				]
+			],
+			[
+				7500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				11250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				15000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				16875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				18750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				21796.875,
+				[
+					[
+						"Play Animation",
+						"singRIGHT",
+						"Dad"
+					]
+				]
+			],
+			[
+				22031.25,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"Dad"
+					]
+				]
+			],
+			[
+				24843.75,
+				[
+					[
+						"Camera Follow Pos",
+						"580",
+						"440"
+					]
+				]
+			],
+			[
+				26015.625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				26132.8125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				26250,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					]
+				]
+			],
+			[
+				29765.625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				29882.8125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				30000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				33750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				37500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				41250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				43125,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				44765.625,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				44882.8125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				45000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.5",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"2",
+						""
+					],
+					[
+						"Camera Follow Pos",
+						"580",
+						"440"
+					],
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				46875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				48750,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				50625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				53437.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				54375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				55312.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				56250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				58125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				59765.625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				59882.8125,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				60468.75,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				60937.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					]
+				]
+			],
+			[
+				61406.25,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						""
+					],
+					[
+						"Hey!",
+						"",
+						""
+					],
+					[
+						"Play Animation",
+						"singUP",
+						"Dad"
+					]
+				]
+			],
+			[
+				61875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						"0"
+					],
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					],
+					[
+						"Flash Camera",
+						"2",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.6",
+						""
+					]
+				]
+			],
+			[
+				65625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				69375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				76875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				80625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				84375,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0"
+					]
+				]
+			],
+			[
+				91875,
+				[
+					[
+						"Add Camera Zoom",
+						"0.3",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"2",
+						""
+					],
+					[
+						"Camera Follow Pos",
+						"580",
+						"440"
+					],
+					[
+						"Set Cam Zoom",
+						"0.6",
+						""
+					]
+				]
+			],
+			[
+				99375,
+				[
+					[
+						"Fade to Black",
+						"10",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 128,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Bean Bam"
+	}
+}

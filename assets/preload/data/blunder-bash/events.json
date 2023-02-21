@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "theWhirlygig",
+		"player1": "bf",
+		"player2": "fall-guy",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 135,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Blunder Bash"
+	}
+}
