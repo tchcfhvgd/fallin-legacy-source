@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "pgIdle"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "pgSingRight"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "pgSingDown"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FLIPPEDpgSingUp"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "pgSingLeft"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "MISSSingRight"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "MISSSingDown"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "FLIPPEDMISSSingUp"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "MISSSingLeft"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "pgdies"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "pgdeadlol"
+		},
+		{
+			"offsets": [
+				360,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "pgdiesamelol"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PlushGuy",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "plush-guy",
+	"flip_x": false,
+	"healthbar_colors": [
+		189,
+		5,
+		57
+	],
+	"camera_position": [
+		1041,
+		0
+	],
+	"sing_duration": 5,
+	"scale": 1
+}
