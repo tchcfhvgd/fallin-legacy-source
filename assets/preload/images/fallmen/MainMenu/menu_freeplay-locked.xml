@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="FNF_main_menu_assets.png">
-	<!-- Created with Adobe Animate version 20.0.0.17400 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="freeplay-locked basic0000" x="0" y="0" width="242" height="242" frameX="-145" frameY="23" frameWidth="464" frameHeight="232"/>
-	<SubTexture name="freeplay-locked white0000" x="243" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
-	<SubTexture name="freeplay-locked pressed0000" x="3048" y="0" width="560" height="560" frameX="0" frameY="23" frameWidth="520" frameHeight="520"/>
-</TextureAtlas>
