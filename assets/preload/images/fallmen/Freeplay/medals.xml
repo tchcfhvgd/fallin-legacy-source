@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="medal-icons.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Purple0000" x="0" y="0" width="260" height="260" frameX="0" frameY="0" frameWidth="260" frameHeight="260"/>
+	<SubTexture name="Pink0000" x="261" y="0" width="260" height="260" frameX="0" frameY="0" frameWidth="260" frameHeight="260"/>
+	<SubTexture name="Bronze0000" x="522" y="0" width="260" height="260" frameX="0" frameY="0" frameWidth="260" frameHeight="260"/>
+	<SubTexture name="Silver0000" x="783" y="0" width="260" height="260" frameX="0" frameY="0" frameWidth="260" frameHeight="260"/>
+	<SubTexture name="Gold0000" x="1044" y="0" width="260" height="260" frameX="0" frameY="0" frameWidth="260" frameHeight="260"/>
+</TextureAtlas>

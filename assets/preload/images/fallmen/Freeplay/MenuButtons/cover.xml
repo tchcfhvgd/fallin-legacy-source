@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yeahFreeplayButton.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="basic0000" x="0" y="0" width="537" height="159" frameX="0" frameY="0" frameWidth="537" frameHeight="159"/>
+	<SubTexture name="white0000" x="0" y="160" width="537" height="159" frameX="0" frameY="0" frameWidth="537" frameHeight="159"/>
+</TextureAtlas>

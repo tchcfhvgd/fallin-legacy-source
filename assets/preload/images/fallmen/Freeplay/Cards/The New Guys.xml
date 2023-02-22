@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="imnotchangingthisforeverysongnamethankyou.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Unselected0000" x="0" y="0" width="798" height="184" frameX="-200" frameY="0" frameWidth="798" frameHeight="184"/>
+	<SubTexture name="Selected0000" x="0" y="0" width="798" height="184" frameX="0" frameY="0" frameWidth="798" frameHeight="184"/>
+</TextureAtlas>
