@@ -3,8 +3,8 @@ function onEvent(n,v1,v2)
 
 	if n == 'Flash Camera' then
 
-	   makeLuaSprite('flash', '', 0, 0);
-        makeGraphic('flash',1280,720,'ffffff')
+	   makeLuaSprite('flash', '', -2000, -1125);
+        makeGraphic('flash',5280,2970,'ffffff')
 	      addLuaSprite('flash', true);
 	      setLuaSpriteScrollFactor('flash',0,0)
 	      setProperty('flash.scale.x',2)
