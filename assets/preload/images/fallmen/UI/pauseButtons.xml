@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pauseButtons.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="0-StoryModeIs true0000" x="0" y="0" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="1-StoryModeIs true0000" x="644" y="0" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="2-StoryModeIs true0000" x="1288" y="0" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="3-StoryModeIs true0000" x="1932" y="0" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="0-StoryModeIs false0000" x="0" y="777" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="1-StoryModeIs false0000" x="644" y="777" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="2-StoryModeIs false0000" x="1288" y="777" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+	<SubTexture name="3-StoryModeIs false0000" x="1932" y="777" width="643" height="776" frameX="0" frameY="0" frameWidth="643" frameHeight="776"/>
+</TextureAtlas>
