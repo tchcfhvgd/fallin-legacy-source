@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scbop.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fallbopsc0000" x="0" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0001" x="0" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0002" x="658" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0003" x="658" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0004" x="1316" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0005" x="1316" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0006" x="1974" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0007" x="1974" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0008" x="2632" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0009" x="2632" y="0" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0010" x="0" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0011" x="0" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0012" x="658" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0013" x="658" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0014" x="1316" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0015" x="1316" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0016" x="1974" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0017" x="1974" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0018" x="2632" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+	<SubTexture name="fallbopsc0019" x="2632" y="547" width="657" height="546" frameX="100" frameY="-650" frameWidth="657" frameHeight="546"/>
+</TextureAtlas>

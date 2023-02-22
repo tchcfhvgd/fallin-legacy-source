@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wGuysFace.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="still0000" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0000" x="0" y="0" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0001" x="0" y="0" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0002" x="7578" y="0" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0003" x="7578" y="0" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0004" x="0" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0005" x="0" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0006" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0007" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0008" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0009" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0010" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0011" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0012" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w1Bounce0013" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0000" x="0" y="3086" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0001" x="0" y="3086" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0002" x="7578" y="3086" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0003" x="7578" y="3086" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0004" x="0" y="4629" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0005" x="0" y="4629" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0006" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0007" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0008" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0009" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0010" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0011" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0012" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+	<SubTexture name="w2Bounce0013" x="7578" y="1543" width="7577" height="1542" frameWidth="7577" frameHeight="1542"/>
+</TextureAtlas>

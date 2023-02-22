@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wGuysBack.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="still0000" x="0" y="0" width="7558" height="1673" frameWidth="7558" frameHeight="1673"/>
+</TextureAtlas>

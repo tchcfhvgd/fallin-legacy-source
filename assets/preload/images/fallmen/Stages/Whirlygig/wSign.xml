@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wSign.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spin0000" x="0" y="0" width="808" height="1417"/>
+	<SubTexture name="spin0001" x="809" y="0" width="808" height="1417"/>
+	<SubTexture name="spin0002" x="1618" y="0" width="808" height="1417"/>
+	<SubTexture name="spin0003" x="2427" y="0" width="808" height="1417"/>
+</TextureAtlas>
