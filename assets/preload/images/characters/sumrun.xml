@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sumrun.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fgRun0000" x="0" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0001" x="0" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0002" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0003" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0004" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0005" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0006" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0007" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0008" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0009" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0010" x="0" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0011" x="0" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0012" x="1070" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0013" x="1070" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0014" x="2140" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0015" x="2140" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0016" x="3210" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0017" x="3210" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0018" x="4280" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+	<SubTexture name="fgRun0019" x="4280" y="938" width="1069" height="937" frameX="0" frameY="0" frameWidth="1069" frameHeight="937"/>
+</TextureAtlas>

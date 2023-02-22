@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GFcrown.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GFcrownbop0000" x="0" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0001" x="0" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0002" x="417" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0003" x="417" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0004" x="834" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0005" x="834" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0006" x="1251" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0007" x="1668" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0008" x="1668" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0009" x="1668" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0010" x="2085" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0011" x="2085" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0012" x="2085" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0013" x="2502" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0014" x="2502" y="0" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0015" x="0" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0016" x="0" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0017" x="417" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0018" x="417" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0019" x="834" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0020" x="834" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0021" x="1251" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0022" x="1668" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0023" x="1668" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0024" x="1668" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0025" x="2085" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0026" x="2085" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0027" x="2085" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0028" x="2502" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+	<SubTexture name="GFcrownbop0029" x="2502" y="541" width="416" height="540" frameX="740" frameY="0" frameWidth="416" frameHeight="540"/>
+</TextureAtlas>
