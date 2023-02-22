@@ -1,6 +1,5 @@
 # Friday Night Fallin'
 Gamebanana: https://gamebanana.com/mods/345834
-
 Gamejolt: https://gamejolt.com/games/friday-night-fallin/674663
 
 # Psych Engine
