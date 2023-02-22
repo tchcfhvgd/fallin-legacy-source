@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="iconPals">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fg fall0000" x="0" y="0" width="113" height="113"/>
+	<SubTexture name="fg fall0001" x="114" y="0" width="113" height="113"/>
+	<SubTexture name="fg getup0000" x="228" y="0" width="113" height="113"/>
+	<SubTexture name="fg getup0001" x="342" y="0" width="113" height="113"/>
+	<SubTexture name="fg getup0002" x="456" y="0" width="113" height="113"/>
+	<SubTexture name="fg forward0000" x="570" y="0" width="113" height="113"/>
+	<SubTexture name="fg right0000" x="684" y="0" width="113" height="113"/>
+	<SubTexture name="fg right0001" x="798" y="0" width="113" height="113"/>
+	<SubTexture name="fg right0002" x="912" y="0" width="113" height="113"/>
+	<SubTexture name="fg left0000" x="1026" y="0" width="113" height="113"/>
+	<SubTexture name="fg left0001" x="1140" y="0" width="113" height="113"/>
+	<SubTexture name="fg left0002" x="1254" y="0" width="113" height="113"/>
+	<SubTexture name="fg carry0000" x="1368" y="0" width="113" height="113"/>
+	<SubTexture name="fg carry0001" x="1482" y="0" width="113" height="113"/>
+	<SubTexture name="fg e10000" x="1596" y="0" width="113" height="113"/>
+	<SubTexture name="fg e10001" x="1710" y="0" width="113" height="113"/>
+	<SubTexture name="fg e10002" x="1824" y="0" width="113" height="113"/>
+	<SubTexture name="fg e20000" x="1938" y="0" width="113" height="113"/>
+	<SubTexture name="fg e20001" x="2052" y="0" width="113" height="113"/>
+	<SubTexture name="fg e20002" x="2166" y="0" width="113" height="113"/>
+	<SubTexture name="fg e30000" x="2280" y="0" width="113" height="113"/>
+	<SubTexture name="fg e30001" x="2394" y="0" width="113" height="113"/>
+	<SubTexture name="fg e30002" x="2508" y="0" width="113" height="113"/>
+</TextureAtlas>
