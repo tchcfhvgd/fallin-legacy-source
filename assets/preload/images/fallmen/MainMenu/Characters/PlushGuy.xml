@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PlushGuy.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pgIdle0000" x="0" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0001" x="0" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0002" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0003" x="1070" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0004" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0005" x="2140" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0006" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0007" x="3210" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0008" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0009" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0010" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0011" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0012" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+	<SubTexture name="pgIdle0013" x="4280" y="0" width="1069" height="937" frameX="0" frameY="0" frameWidth="520" frameHeight="833"/>
+</TextureAtlas>
