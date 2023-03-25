@@ -1,1 +1,1 @@
-Mod has been put on hold. You can download the new build that has some new stuff.
+Small fixes and improvements to Blunder Bash.
