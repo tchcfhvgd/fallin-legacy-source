@@ -103,7 +103,7 @@ class TitleState extends MusicBeatState
 		
 		if(!closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/Denoohay/fallin-source/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/Denoohay/fallin-legacy-source/main/gitVersion.txt");
 			
 			http.onData = function (data:String)
 			{

@@ -29,7 +29,7 @@ class MainMenuState extends MusicBeatState
 	public static var curSelected:Int = 0;
 
 	public static var psychEngineVersion:String = '0.5.2h';
-	public static var fallinVersion:String = '0.2.3'; //This is also used for Discord RPC and checking for updates
+	public static var fallinVersion:String = '0.2.4'; //This is also used for Discord RPC and checking for updates
 
 	var daThing:String = "";
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -37,7 +37,6 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 	
 	var optionShit:Array<String> = [
-		'story_mode',
 		'freeplay',
 		'credits',
 		'options'
@@ -525,20 +524,20 @@ class MainMenuState extends MusicBeatState
 		versionShit.borderSize = 1.5;
 		add(versionShit);
 
-		var fallinStuff:FlxText = new FlxText(12, FlxG.height -20, 1266, "Friday Night Fallin' v" + fallinVersion + " (On Hold Build)-git", 12);
+		var fallinStuff:FlxText = new FlxText(12, FlxG.height -20, 1266, "Friday Night Fallin' Legacy v" + fallinVersion + "-git", 12);
 		fallinStuff.scrollFactor.set();
 		fallinStuff.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		fallinStuff.antialiasing = ClientPrefs.globalAntialiasing;
 		fallinStuff.borderSize = 1.5;
 		add(fallinStuff);
 
-		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Keep in mind this is an unfinished build!\nGo to Freeplay to play stuff.", 12);
+		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Keep in mind, this version of Fallin' has been abandoned.\n\nEVERYTHING will be completely overhauled in the final version!", 12);
 		holdText.scrollFactor.set();
 		holdText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		holdText.antialiasing = ClientPrefs.globalAntialiasing;
 		holdText.screenCenter(X);
 		holdText.borderSize = 2;
-		holdText.size = 32;
+		holdText.size = 20;
 		add(holdText);
 		
 		/*
@@ -679,13 +678,6 @@ class MainMenuState extends MusicBeatState
 			{
 				FlxG.mouse.visible = false;
 
-				if (curSelected == 0)
-				{
-					FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.3));
-					camGame.shake(0.005, 0.2);
-				}
-				else
-				{
 					{
 						selectedSomethin = true;
 						FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -755,7 +747,6 @@ class MainMenuState extends MusicBeatState
 							});
 						}
 					});
-				}
 			}
 		}
 			#if desktop
