@@ -52,10 +52,8 @@ class FreeplayExtraState extends MusicBeatState
 
 	override function create()
 	{
-		var Song1:String = 'Stringbean';
-		var Song2:String = 'The New Guys';
-		var Song3:String = 'Better Bean';
-		var Song4:String = 'Everybody Falls';
+		var Song1:String = 'Better Bean';
+		var Song2:String = 'Everybody Falls';
 
 		/*
 		if (FlxG.save.data.DemoFreeplaySong2 == true)
@@ -68,7 +66,7 @@ class FreeplayExtraState extends MusicBeatState
 			Song4 = 'Rap Battle';
 		*/
 
-		var initSonglist:Array<String> = [Song1, Song2, Song3, Song4, ''];
+		var initSonglist:Array<String> = [Song1, Song2, ''];
 
 		for (i in 0...initSonglist.length)
 		{
@@ -539,7 +537,7 @@ class FreeplayExtraState extends MusicBeatState
 			trace(md);
 		 */
 
-		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Only Better Bean and Everybody Falls works.\nBetter Bean is the same as Rap Battle from the Demos.\nEverybody Falls has unfinished mechanics and sloppy charting.", 12);
+		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Better Bean is the same as Rap Battle from the Demos.\nEverybody Falls has sloppy charting.", 12);
 		holdText.scrollFactor.set();
 		holdText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		holdText.antialiasing = ClientPrefs.globalAntialiasing;

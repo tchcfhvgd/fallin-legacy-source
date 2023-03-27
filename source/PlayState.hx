@@ -238,6 +238,7 @@ class PlayState extends MusicBeatState
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
 	var fastCar:BGSprite;
 
+	var whirlySky:BGSprite;
 	var whirlyBack:BGSprite;
 	var whirlyBacker:BGSprite;
 	var whirlyFront:BGSprite;
@@ -252,6 +253,8 @@ class PlayState extends MusicBeatState
 	var whirlyBloon2:BGSprite;
 	var whirlyGuysFace:BGSprite;
 	var whirlyGuysBack:BGSprite;
+	var runningBack:BGSprite;
+	var runningShine:BGSprite;
 
 	var bopperCount:Int = 0;
 
@@ -514,8 +517,14 @@ class PlayState extends MusicBeatState
 				GF_Y = 130;
 				DAD_X = -930;
 				DAD_Y = 130;
+				
+				runningBack = new BGSprite('fallmen/Stages/Whirlygig/runningBack', 0, 0, 0, 0);
+				runningBack.alpha = 1;
+				runningBack.setGraphicSize(Std.int(runningBack.width * 1.3));
+				runningBack.updateHitbox();
+				add(runningBack);
 
-				var whirlySky:BGSprite = new BGSprite('fallmen/Stages/Sky', -4550, -2550, 0.2, 0.2);
+				whirlySky = new BGSprite('fallmen/Stages/Sky', -4550, -2550, 0.2, 0.2);
 				whirlySky.updateHitbox();
 				add(whirlySky);
 
@@ -1494,6 +1503,11 @@ class PlayState extends MusicBeatState
 			whirlyFront = new BGSprite('fallmen/Stages/Whirlygig/wFront', -4550, -2550 + 4266, 1.5, 1.5);
 			whirlyFront.updateHitbox();
 			add(whirlyFront);
+				
+			runningShine = new BGSprite('fallmen/Stages/Whirlygig/runningShine', 0, 0, 0, 0);
+			runningShine.alpha = 0;
+			runningShine.setGraphicSize(Std.int(runningShine.width * 1.3));
+			runningShine.updateHitbox();
 		}
 
 		fallhealth = new AttachedSprite('fallmen/UI/fallHealth');
@@ -3466,7 +3480,7 @@ class PlayState extends MusicBeatState
 					{
 						if (isFallSong)
 						{
-							timeTxt.text = "0" + FlxStringUtil.formatTime(secondsTotal, false);
+							timeTxt.text = "0" + FlxStringUtil.formatTime(secondsTotal-9, false);
 						}
 						else
 						{
@@ -3476,7 +3490,7 @@ class PlayState extends MusicBeatState
 					else if (ClientPrefs.timeBarType == 'Song Name' && isFallSong)
 					{
 						{
-							timeTxt.text = "0" + FlxStringUtil.formatTime(secondsTotal, false);
+							timeTxt.text = "0" + FlxStringUtil.formatTime(secondsTotal-9, false);
 						}
 					}
 				}
@@ -3758,6 +3772,7 @@ class PlayState extends MusicBeatState
 				vocals.stop();
 				vocalsP2.stop();
 				FlxG.sound.music.stop();
+				FlxG.sound.music.volume = 1;
 
 				whirlyLeftGood = false;
 				whirlyDownGood = false;
@@ -4790,8 +4805,29 @@ class PlayState extends MusicBeatState
 			if(daNote.noteType != 'Whirly Note')
 			{
 				combo = 0;
+				
+				if (daNote.noteType == 'Crown Note')
+				{
+					health -= 0.4;
 
-				health -= 0.1 * healthLoss;
+					camGame.shake(0.01, 0.5);
+
+					if(boyfriend.animation.getByName('hurt') != null)
+						{
+							boyfriend.playAnim('hurt', true);
+							boyfriend.specialAnim = true;
+						}
+					if(gf.animation.getByName('sad') != null)
+						{
+							gf.playAnim('sad', true);
+							gf.specialAnim = true;
+						}
+				}
+				else
+				{
+					health -= 0.1 * healthLoss;
+				}
+
 				if(instakillOnMiss)
 				{
 					vocals.volume = 0;
@@ -4817,6 +4853,7 @@ class PlayState extends MusicBeatState
 			}
 			else if(daNote.noteType == 'Crown Note')
 			{
+				FlxG.sound.play(Paths.sound('goldmiss'), 0.5);
 			}
 			else if(daNote.noteType == 'Slime Note')
 			{
@@ -4951,14 +4988,32 @@ class PlayState extends MusicBeatState
 			}
 
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
+			
+			//GOOD NOTES GO UNDER HERE
 
-			if(note.hitCausesMiss) {
+			if(note.noteType == 'Crown Note')
+			{
+				health += 0.2;
+
+				if(gf.animation.getByName('cheer') != null)
+				{
+					gf.playAnim('cherr', true);
+					gf.specialAnim = true;
+				}
+			}
+
+			//BAD NOTES GO UNDER HERE
+
+			if(note.hitCausesMiss)
+			{
 				noteMiss(note);
-				if(!note.noteSplashDisabled && !note.isSustainNote) {
+				if(!note.noteSplashDisabled && !note.isSustainNote)
+				{
 					spawnNoteSplashOnNote(note);
 				}
 
-				switch(note.noteType) {
+				switch(note.noteType)
+				{
 					case 'Hurt Note': //Hurt note
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
@@ -4986,7 +5041,6 @@ class PlayState extends MusicBeatState
 								}
 					}
 				}
-
 				
 				if(note.noteType == 'Whirly Note')
 				{
@@ -5485,12 +5539,21 @@ class PlayState extends MusicBeatState
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
 
-		//PUT THE CODED IN MID-SONG EVENTS DOWN HERE
+		//PUT THE CODED IN MID-SONG EVENTS Events events DOWN HERE
 
 		if (curSong == 'Blunder Bash')
 		{
 			switch (curStep)
 			{
+				case 192:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
+					
+				case 320:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
+					
+				case 448:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
+
 				case 704:
 					strumLineNotes.members[0].alpha = 0;
 					strumLineNotes.members[1].alpha = 0;
@@ -5653,11 +5716,16 @@ class PlayState extends MusicBeatState
 					remove(whirlySmallSign2);
 					remove(whirlyBloon1);
 					remove(whirlyBloon2);
+					remove(whirlySky);
 					remove(whirlyGuysFace);
 					remove(boyfriendGroup);
 					remove(dadGroup);
 					add(dadGroup);
 					add(boyfriendGroup);
+					add(runningShine);
+					runningShine.alpha = 1;
+					runningShine.screenCenter();
+					runningBack.screenCenter();
 					dadGroup.x = 0 + 250;
 					dadGroup.y = 0;
 					boyfriendGroup.x = dadGroup.x;
@@ -5702,6 +5770,15 @@ class PlayState extends MusicBeatState
 					}
 					setOnLuas('boyfriendName', boyfriend.curCharacter);
 					reloadHealthBarColors();
+					
+				case 1088:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
+					
+				case 1344:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
+					
+				case 1376:
+					FlxG.camera.flash(FlxColor.WHITE, 2);
 
 				case 1408:
 					canPause = false;

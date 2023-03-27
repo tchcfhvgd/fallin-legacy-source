@@ -449,20 +449,16 @@ class CreditsState extends MusicBeatState
 			["Mod Creator"],
 			['Denoohay',			'denoohay',			"I made this. :P",												'https://twitter.com/Denoohay',				'FFB032'],
 			[''],
-			[''],
-			[''],
-			['Background Guys',		'background',		"Press ENTER to view all Background Characters",				'',											''],
-			[''],
+			["Background Guys"],
+			['Blunder Bash Background Guys',		'background',		"Press ENTER to view all Background Characters",				'',											''],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',		'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',			'B42F71'],
 			['shubs',				'shubs',			'Additional Programmer of Psych Engine',						'https://twitter.com/yoshubs',				'5E99DF'],
 			[''],
-			[''],
 			['Former Engine Members'],
 			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',				'3E813A'],
-			[''],
 			[''],
 			['Engine Contributors'],
 			['iFlicky',				'flicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',		'https://twitter.com/flicky_i',				'9E29CF'],
@@ -472,7 +468,6 @@ class CreditsState extends MusicBeatState
 			['Keoiki',				'keoiki',			'Note Splash Animations',										'https://twitter.com/Keoiki_',				'D2D2D2'],
 			['Nebula the Zorua',	'nebula',			'LUA JIT Fork and some Lua reworks',							'https://twitter.com/Nebula_Zorua',			'7D40B2'],
 			['Smokey',				'smokey',			'Sprite Atlas Support',											'https://twitter.com/Smokey_5_',			'483D92'],
-			[''],
 			[''],
 			["Funkin' Crew"],
 			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",							'https://twitter.com/ninja_muffin99',		'CF2D2D'],
@@ -520,11 +515,11 @@ class CreditsState extends MusicBeatState
 		}
 		
 		descBox = new AttachedSprite();
-		descBox.makeGraphic(1, 1, FlxColor.BLACK);
+		descBox.makeGraphic(1, 1, 0xFF5296E1);
 		descBox.xAdd = -10;
 		descBox.yAdd = -10;
-		descBox.alphaMult = 0.6;
-		descBox.alpha = 0.6;
+		descBox.alphaMult = 0.8;
+		descBox.alpha = 0.8;
 		add(descBox);
 
 		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
@@ -588,7 +583,7 @@ class CreditsState extends MusicBeatState
 			{
 				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
 			}
-			else if (controls.ACCEPT && curSelected == 5)
+			else if (controls.ACCEPT && curSelected == 4)
 			{
 				FlxG.sound.play(Paths.sound('confirmMenu2'));
 				MusicBeatState.switchState(new CreditsGuysState());

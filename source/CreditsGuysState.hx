@@ -33,7 +33,8 @@ class CreditsGuysState extends MusicBeatState
 	var credback:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
-	var descBox:AttachedSprite;
+	var descBox:FlxSprite;
+	var boxGuy:FlxSprite;
 
 	var offsetThing:Float = -75;
 
@@ -445,15 +446,14 @@ class CreditsGuysState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			["Blunder Bash BG Beans"],
 			['Bro_Guy9000',		'1'],
 			['banpro05',		'2'],
 			['DogeKingYTT',		'3'],
 			['m23m23m23_',		'4'],
 			['Zyl3thbl0x',		'5'],
-			['quadurado',		'6'],
-			['prange_dude',		'7'],
-			['Maxstarpro',		'8'],
+			['Faleep_',			'6'],	//was quadurado
+			['amoguontwitreal',	'7'],	//was prange_dude
+			['Maxstarxd',		'8'],	//was Maxstarpro
 			['bi_satro',		'9'],
 			['CoolFreddy_10',	'10'],
 			['That_SBMB',		'11'],
@@ -468,13 +468,13 @@ class CreditsGuysState extends MusicBeatState
 			['Daemontail1',		'20'],
 			['Dynamo_Den',		'21'],
 			['POLOisher',		'22'],
-			['bozyyy2832',		'23'],
+			['Cozyyy2832',		'23'],	//was bozyyy2832
 			['Wobblort',		'24'],
-			['SasyYtOfficial',	'25'],
+			['Il_Sasy',			'25'],	//was SasyYtOfficial
 			['crispysquidony1',	'26'],
 			['RealYeetedBean',	'27'],
 			['JahidKainnou',	'28'],
-			['xenox1118',		'29'],
+			['XenoxPooPooFard',	'29'],	//was xenox1118
 			['TheMome_',		'30'],
 			['choccy_milk19',	'31'],
 			['Ginge0073',		'32'],
@@ -484,22 +484,36 @@ class CreditsGuysState extends MusicBeatState
 			['nearbyscallywag',	'36'],
 			['HyperYeetedMVP',	'37'],
 			['Icytanki',		'38'],
-			['SugarShibe',		'39']
+			['Femboy_Shiba',	'39']	//was SugarShibe
 		];
 		
 		for(i in pisspoop){
 			creditsStuff.push(i);
 		}
 	
+		descBox = new FlxSprite();
+		descBox.makeGraphic(447, 568, FlxColor.BLACK);
+		descBox.x = 678;
+		descBox.screenCenter(Y);
+		descBox.alpha = 0.3;
+		add(descBox);
+		
+		boxGuy = new FlxSprite(447, 568);
+		boxGuy.loadGraphic(Paths.image('credits/Background Guys/guy-1'));
+		boxGuy.setGraphicSize(Std.int(boxGuy.width / 2));
+		boxGuy.x = 450;
+		boxGuy.screenCenter(Y);
+		boxGuy.antialiasing = ClientPrefs.globalAntialiasing;
+		add(boxGuy);
+
 		for (i in 0...creditsStuff.length)
 		{
 			var isSelectable:Bool = !unselectableCheck(i);
-			var optionText:Alphabet = new Alphabet(0, 70 * i, creditsStuff[i][0], !isSelectable, false);
+			var optionText:Alphabet = new Alphabet(0, 30 * i, creditsStuff[i][0], !isSelectable, false);
 			optionText.isMenuItem = true;
-			optionText.screenCenter(X);
-			optionText.yAdd -= 70;
+			optionText.x = 70;
 			optionText.forceX = optionText.x;
-			//optionText.yMult = 90;
+			optionText.yAdd -= 70;
 			optionText.targetY = i;
 			grpOptions.add(optionText);
 
@@ -543,11 +557,13 @@ class CreditsGuysState extends MusicBeatState
 				{
 					changeSelection(-1 * shiftMult);
 					holdTime = 0;
+					boxGuy.loadGraphic(Paths.image('credits/Background Guys/guy-' + (curSelected + 1)));
 				}
 				if (downP)
 				{
 					changeSelection(1 * shiftMult);
 					holdTime = 0;
+					boxGuy.loadGraphic(Paths.image('credits/Background Guys/guy-' + (curSelected + 1)));
 				}
 
 				if(controls.UI_DOWN || controls.UI_UP)

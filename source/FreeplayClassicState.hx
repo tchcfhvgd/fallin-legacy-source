@@ -588,7 +588,7 @@ class FreeplayClassicState extends MusicBeatState
 			trace(md);
 		 */
 
-		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Songs made by the original composer\nhave been removed as requested by them.\nVocals made by Denoohay have still been kept in.\nAll Charts are still playable but might be messy.\nP.S. avoid Slime Notes on Spiky Slopes.", 12);
+		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Songs made by the original composer\nhave been removed/muted as requested by them.\nVocals made by Denoohay have still been kept in.\nAll Charts are still playable but might be messy.\nP.S. avoid Slime Notes on Spiky Slopes.", 12);
 		holdText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		holdText.antialiasing = ClientPrefs.globalAntialiasing;
 		holdText.borderSize = 2;

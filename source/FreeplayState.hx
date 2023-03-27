@@ -54,10 +54,6 @@ class FreeplayState extends MusicBeatState
 	override function create()
 	{
 		var Song1:String = 'Blunder Bash';
-		var Song2:String = 'Stumbling';
-		var Song3:String = 'Whammy';
-		var Song4:String = 'Splash Zone';
-		var Song5:String = 'Royal Rumble';
 
 		/*
 		if (FlxG.save.data.DemoFreeplaySong2 == true)
@@ -70,7 +66,7 @@ class FreeplayState extends MusicBeatState
 			Song4 = 'Rap Battle';
 		*/
 
-		var initSonglist:Array<String> = [Song1, Song2, Song3, Song4, Song5, ''];
+		var initSonglist:Array<String> = [Song1, ''];
 
 		for (i in 0...initSonglist.length)
 		{
@@ -550,7 +546,7 @@ class FreeplayState extends MusicBeatState
 			trace(md);
 		 */
 
-		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Only Blunder Bash (Hard) works.\nIt also has unfinished events and assets.\nThe song was meant to be redone but it didn't happen.\nTIPS:\nBlue Whirly Notes mess up your notes when hit.\nYellow Whirly Notes fix your notes after being messed up.", 12);
+		var holdText:FlxText = new FlxText(0, 10, FlxG.width, "Blunder Bash has unfinished events and assets.\nThe song was meant to be redone but it didn't happen.\nTIPS:\nBlue Whirly Notes mess up your notes when hit.\nYellow Whirly Notes fix your notes after being messed up.", 12);
 		holdText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		holdText.antialiasing = ClientPrefs.globalAntialiasing;
 		holdText.screenCenter(X);
@@ -710,6 +706,7 @@ class FreeplayState extends MusicBeatState
 
 		if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
 
+		/*
 			if (upP)
 			{
 				changeSelection(-shiftMult);
@@ -740,11 +737,9 @@ class FreeplayState extends MusicBeatState
 				changeSelection(-shiftMult * FlxG.mouse.wheel);
 				changeDiff();
 			}
-		
 			if (JUSTsongName == 'locked')
 			{
 				changeDiff(1 - curDifficulty);
-				diffText.visible = false;
 			}
 			else
 			{
@@ -761,6 +756,7 @@ class FreeplayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 				}
 			}
+		*/
 
 			super.update(elapsed);
 	}
@@ -852,6 +848,7 @@ class FreeplayState extends MusicBeatState
 			diffText.x = Std.int(900 + (scoreBG.width / 2));
 			diffText.x -= diffText.width / 2;
 			diffText.x = 1030 - diffText.width / 2;
+			diffText.visible = false;
 		}
 	}
 
