@@ -1,4 +1,4 @@
-# Friday Night Fallin'
+# Friday Night Fallin' Legacy
 Gamebanana: https://gamebanana.com/mods/345834
 
 Gamejolt: https://gamejolt.com/games/friday-night-fallin/674663
