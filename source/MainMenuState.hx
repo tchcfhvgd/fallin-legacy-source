@@ -78,7 +78,7 @@ class MainMenuState extends MusicBeatState
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
 
-		persistentUpdate = persistentDraw = true;
+		persistentUpdate = true;
 
 		var ui_tex = Paths.getSparrowAtlas('fallmen/MainMenu/MenuArrows');
 		
