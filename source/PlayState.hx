@@ -1773,19 +1773,25 @@ class PlayState extends MusicBeatState
 			switch (daSong)
 			{
 				case 'bean-bam-f-mix':
-					video.playMP4(Paths.video('cut1'), new PlayState());
+					//video.playMP4(Paths.video('cut1'), new PlayState());
+					startVideo('cut1');
 				case 'bean-bam-d-mix':
-					video.playMP4(Paths.video('cut1'), new PlayState());
+					//video.playMP4(Paths.video('cut1'), new PlayState());
+					 startVideo('cut1');
 
 				case 'earthquake-f-mix':
-					video.playMP4(Paths.video('cut2'), new PlayState());
+					//video.playMP4(Paths.video('cut2'), new PlayState());
+					startVideo('cut2');
 				case 'earthquake-d-mix':
-					video.playMP4(Paths.video('cut2'), new PlayState());
+					//video.playMP4(Paths.video('cut2'), new PlayState());
+					startVideo('cut2');
 
 				case 'bombshell-f-mix':
-					video.playMP4(Paths.video('cut3'), new PlayState());
+					//video.playMP4(Paths.video('cut3'), new PlayState());
+					startVideo('cut3');
 				case 'bombshell-d-mix':
-					video.playMP4(Paths.video('cut3'), new PlayState());
+					//video.playMP4(Paths.video('cut3'), new PlayState());
+					startVideo('cut3');
 
 				default:
 					startCountdown();
